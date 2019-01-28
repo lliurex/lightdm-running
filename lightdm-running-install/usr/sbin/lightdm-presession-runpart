@@ -1,0 +1,3 @@
+#!/bin/sh
+run-parts /usr/share/lightdm/PreSession.d
+run-parts /etc/lightdm/PreSession.d
