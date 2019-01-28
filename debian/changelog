@@ -1,0 +1,141 @@
+lightdm-running (0.22) bionic; urgency=medium
+
+  * First bionic release 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 28 Jan 2019 11:56:26 +0100
+
+lightdm-running (0.21) xenial; urgency=high
+
+  * Changing to mate session
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 22 Jul 2016 11:40:14 +0200
+
+lightdm-running (0.20) xenial; urgency=high
+
+  * First lliurex-session version
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 06 Jun 2016 10:09:10 +0200
+
+lightdm-running (0.19.5) xenial; urgency=medium
+
+  * First xenial Release
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Wed, 17 Feb 2016 11:36:14 +0100
+
+lightdm-running (0.19.2) trusty; urgency=high
+
+  * Fixed debian files
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 28 Nov 2014 13:27:14 +0100
+
+lightdm-running (0.19.1) trusty; urgency=medium
+
+  * Added lliurex-gva conflict with lightdm-classroom
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 28 Nov 2014 09:59:33 +0100
+
+lightdm-running (0.19) trusty; urgency=high
+
+  * Moved diversion to lightdm-classroom
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 28 Nov 2014 09:58:02 +0100
+
+lightdm-running (0.18) trusty; urgency=high
+
+  * WIP
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 26 Nov 2014 12:34:48 +0100
+
+lightdm-running (0.17) trusty; urgency=medium
+
+  * Adding Session.d run-parts functionality via libpam-script
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 25 Nov 2014 16:47:27 +0100
+
+lightdm-running (0.16) trusty; urgency=high
+
+  * Fixed preinst with upgrade
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 19 Nov 2014 12:22:14 +0100
+
+lightdm-running (0.15) trusty; urgency=high
+
+  * Fix path on exitSession
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 18 Nov 2014 13:16:55 +0100
+
+lightdm-running (0.14) trusty; urgency=high
+
+  * Fixed bug in preinst
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 13 Nov 2014 14:32:35 +0100
+
+lightdm-running (0.13) trusty; urgency=high
+
+  * Rename gnome-flashback by gnome-fallback on session
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 10 Nov 2014 16:57:04 +0100
+
+lightdm-running (0.12) trusty; urgency=high
+
+  * Fixed preinst
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 07 Nov 2014 12:32:00 +0100
+
+lightdm-running (0.11) trusty; urgency=high
+
+  * Modify lightdm conf. Now it's configured by
+    /usr/share/lightdm/lightdm.conf.d
+  * Added support to presession and exitsession scripts /usr/share/lightdm
+    folder
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 07 Nov 2014 12:15:34 +0100
+
+lightdm-running (0.10) trusty; urgency=high
+
+  * Add key to show manual login
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 14 Oct 2014 18:24:44 +0200
+
+lightdm-running (0.9) trusty; urgency=high
+
+  * Upload to trusty
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 06 Oct 2014 10:11:19 +0200
+
+lightdm-running (0.5) precise; urgency=low
+
+  * Added support to exit session scripts
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 28 Nov 2013 09:02:06 +0100
+
+lightdm-running (0.4) precise; urgency=high
+
+  * Updated Lite Session 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 31 May 2013 10:16:20 +0200
+
+lightdm-running (0.3) precise; urgency=low
+
+  * Remove line to load other lightdm.conf. When iso will be created, we must
+  do cp custom config file to lightdm.conf
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 31 May 2013 10:12:26 +0200
+
+lightdm-running (0.2) precise; urgency=low
+
+  * Change architecture
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 30 May 2013 09:03:33 +0200
+
+lightdm-running (0.1.1) precise; urgency=low
+
+  * Wrong divert
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 29 May 2013 20:56:04 +0200
+
+lightdm-running (0.1) precise; urgency=low
+
+  * Initial Release.
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 29 May 2013 18:55:28 +0200

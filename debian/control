@@ -1,0 +1,29 @@
+Source: lightdm-running
+Section: admin
+Priority: extra
+Maintainer: LliureX Team <lliurex@gva.es>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: http://www.lliurex.net
+#Vcs-Svn: http://svn.lliurex.net/pandora/lightdm-running
+
+Package: lightdm-running
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: add run-parts and other features
+ This package add run-parts scripts to start user, and select config file when 
+ start.
+
+Package: lightdm-classroom
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends},lightdm-running (>=0.18), libpam-script
+Conflicts: lliurex-gva
+Description: lightdm session scripts
+ run-parts directory executed in pam session 
+
+Package: lightdm-showlistusers
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends},lightdm-running
+Description: Hide list users of lightdm
+ Append conffiles to hide list users. This package is useful to classroom or 
+ gva flavour
