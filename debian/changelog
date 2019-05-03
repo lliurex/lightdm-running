@@ -1,3 +1,9 @@
+lightdm-running (0.23) bionic; urgency=high
+
+  * Adding sddm configuration
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 03 May 2019 09:11:15 +0200
+
 lightdm-running (0.22) bionic; urgency=medium
 
   * First bionic release 
