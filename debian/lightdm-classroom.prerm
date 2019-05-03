@@ -25,6 +25,12 @@ case "$1" in
 		rm -rf "$ORIGINAL_FILE"
 		dpkg-divert --package $PACKAGE_NAME --rename --remove   $ORIGINAL_FILE
 	fi
+	
+	ORIGINAL_FILE="/etc/pam.d/sddm"
+	if [ -L "$ORIGINAL_FILE" ] ; then
+		rm -rf "$ORIGINAL_FILE"
+		dpkg-divert --package $PACKAGE_NAME --rename --remove   $ORIGINAL_FILE
+	fi
 
     ;;
 
